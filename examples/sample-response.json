@@ -1,0 +1,42 @@
+{
+  "description": "Example of data we collect from a Reddit post",
+  "note": "All fields are from PUBLIC posts. No private data.",
+  "example": {
+    "id": "reddit_abc123",
+    "source": "reddit",
+    "sourceId": "abc123",
+    "sourceUrl": "https://reddit.com/r/webdev/comments/abc123/looking_for_screenshot_api/",
+    "title": "Looking for a reliable screenshot API",
+    "content": "Hey everyone, I'm building a SaaS product and need to capture screenshots of websites. Looking for recommendations on screenshot APIs that are reliable and reasonably priced. Thanks!",
+    "author": "developer_username",
+    "authorUrl": "https://reddit.com/u/developer_username",
+    "matchedKeywords": [
+      "screenshot api"
+    ],
+    "collectedAt": "2025-01-15T10:30:00Z",
+    "sourceCreatedAt": "2025-01-15T09:45:00Z"
+  },
+  "fieldsExplanation": {
+    "id": "Our internal ID (source + Reddit ID)",
+    "source": "Always 'reddit' for this integration",
+    "sourceId": "Reddit's unique post identifier",
+    "sourceUrl": "Direct link back to Reddit (we always link back)",
+    "title": "The post title - public text",
+    "content": "The post body - public text",
+    "author": "Reddit username - public info",
+    "authorUrl": "Link to user's public profile",
+    "matchedKeywords": "Which of our keywords matched this post",
+    "collectedAt": "When we found this post",
+    "sourceCreatedAt": "When the post was created on Reddit"
+  },
+  "whatWeDoNotCollect": [
+    "Email addresses",
+    "Real names",
+    "Private messages",
+    "Voting history",
+    "Browsing history",
+    "Comments on the post",
+    "User preferences",
+    "IP addresses"
+  ]
+}

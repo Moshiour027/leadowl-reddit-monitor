@@ -1,0 +1,37 @@
+{
+  "name": "leadowl-reddit-monitor",
+  "version": "1.0.0",
+  "description": "Customer feedback monitoring for indie software developers",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/",
+    "test": "vitest"
+  },
+  "keywords": [
+    "reddit",
+    "monitoring",
+    "customer-feedback",
+    "developer-tools"
+  ],
+  "author": "TechyOwls <hello@techyowls.io>",
+  "license": "MIT",
+  "homepage": "https://leadowl.techyowls.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechyOwls/leadowl-reddit-monitor"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
