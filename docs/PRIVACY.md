@@ -86,7 +86,7 @@ We comply with:
 Privacy questions:
 
 - Email: privacy@techyowls.io
-- Website: https://leadowl.techyowls.io/privacy
+- Website: https://techyowls.io
 
 ## Updates
 

@@ -1,12 +1,14 @@
 # LeadOwl Reddit Monitor
 
-> Customer feedback monitoring for indie software developers.
+> Internal tool for TechyOwls to find community discussions about our products.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## What This Is
 
-LeadOwl Reddit Monitor helps software developers find and respond to community questions about their products. When someone on Reddit asks "looking for a screenshot API" or "best Mac calculator app", we help the makers of those tools find and answer these questions.
+This is an **internal tool** used by TechyOwls to monitor Reddit for community discussions about our products. When someone asks "looking for a screenshot API" or "best Mac calculator app", we want to find those posts so we can provide helpful, human responses.
+
+**This is NOT a product for sale.** It's our internal customer feedback tool, made public for transparency.
 
 ## Who We Are
 
@@ -20,6 +22,18 @@ LeadOwl Reddit Monitor helps software developers find and respond to community q
 | [DocForge](https://docforge.techyowls.io) | PDF Generation API | In development |
 
 Our products are discussed on Reddit. We built this tool to find those discussions and provide helpful responses to users asking questions.
+
+## Transparency About Our Use Case
+
+**We're being upfront:** TechyOwls is a business. We use this tool to find potential customers. This is commercial use by Reddit's definition.
+
+However, our use is:
+- **Read-only** - We never automate posting or commenting
+- **Small-scale** - 12 subreddits, well under 100 QPM
+- **Respectful** - 50% of rate limits, 90-day data retention
+- **Helpful** - We respond to help users, not spam them
+
+We're indie developers, not enterprise scrapers. We made this repo public so Reddit can see exactly what we do.
 
 ## Why We Need Reddit API Access
 
@@ -144,8 +158,8 @@ See [src/collector.ts](src/collector.ts) for the complete list.
 ## Compliance
 
 ### Legal
-- **Privacy Policy**: https://leadowl.techyowls.io/privacy
-- **Terms of Service**: https://leadowl.techyowls.io/terms
+- **Privacy Policy**: See [docs/PRIVACY.md](docs/PRIVACY.md)
+- **About Us**: https://techyowls.io
 - **GDPR Compliant**: EU user data handled according to GDPR
 
 ### Technical
